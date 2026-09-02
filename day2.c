@@ -13,9 +13,19 @@ int main(void)
     printf("%.1lf\n", 0.16345);
     printf("%.2lf\n", 0.12345);
 
-    printf("%d와 %d의 합은 %d입니다.",1,2,1+2);
+    printf("%d와 %d의 합은 %d입니다.\n",1,2,1+2);
 
-    
+    printf("%c", 'ab');
+
+    char fruit[20] = "strawberry";
+
+    printf("딸기 : %s",fruit);
+    printf("딸기잼 : %s %s", fruit, "jam");
+
+
+    int q;
+    scanf("%d", &q);
+    printf("i love %d", q);
 
     return 0;
 }
