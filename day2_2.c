@@ -12,5 +12,4 @@ int main(void)
     printf("%d", sizeof(10));
     printf("%d", sizeof(3.4));
 
-    
 }
